@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Proyecto 4</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 id="miH1">Mario, mas o menos.</h1>
+
+   
+    
+    
+
+    <div class="juego">
+      <h2 id="myId">Puntaje:<span class="score">0</span></h2>
+
+
+     <img class="moneda" src="./imagenes/coin.gif" />
+     <img  id="miGif" class="mario" src="./imagenes/mario.gif"  alt="Mario">
+    
+    </div>
+    
+    
+    <button onclick="saltar()">Salta</button>
+    
+    <button id="botonBajar" onclick="baja()" class="bajar">Bajar</button>
+    <button class="derecha">Moverse a la derecha</button>
+    <button onclick="changeColor()">Cambiar el color</button>
+    
+    <button onclick="xd()">Finalizar juego</button>
+    <audio id="miAudio" src="game over.mp3"></audio>
+    
+    <button type="button" onclick="changeText()">Actualizar Puntaje</button>
+    <audio id="monedita" src="moneda.mp3"></audio>
+
+    <button  id="miBoton" class="crecer">Crecer</button>
+    <audio id="crecidito" src="crecer.mp3"></audio>
+    <button class="izquierda">Moverse a la Izquierda</button>
+    
+ 
+
+   
+    
+
+   
+
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
